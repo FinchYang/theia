@@ -591,7 +591,7 @@ export interface TreeViewItem {
     icon?: string;
     iconUrl?: IconUrl;
 
-    themeIconId?: 'folder' | 'file';
+    themeIconId?: string | 'folder' | 'file';
 
     resourceUri?: UriComponents;
 
